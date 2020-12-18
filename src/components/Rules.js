@@ -19,7 +19,7 @@ const Rules = () => {
         4. After Every Correct Answer Wait For 3-4 Second To Move To Next Question.
       </p>
       <p className="wrong">
-        5. After Every Question Answer There Will Be Button Below To See Score.
+        5. After All Question Answer There Will Be Button Below To See Score.
       </p>
       <NavLink to="/home">
         Let's Start
