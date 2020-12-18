@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.rules {
+  box-sizing: border-box;
+  margin: 30px 0 65px 0;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.rules h2 {
+  margin: 10px 0;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+.rules p {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+  padding: 8px 0;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.rules a {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  padding: 12px 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+  background-color: rgb(250, 151, 37);
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.show-result {
+  box-sizing: border-box;
+  text-align: center;
+  height: auto;
+  font-size: 30px;
+  margin: 20px auto;
+}
+
+.show-result a {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+  letter-spacing: 2px;
+  background-color: rgb(250, 151, 37);
+}
+
+.title {
+  position: relative;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 1.8em;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.questionBox {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: rgb(250, 250, 250);
+}
+
+#answerBtn {
+  position: relative;
+  padding: 10px;
+  background-color: rgb(250, 151, 37);
+  display: inline-block;
+  margin: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: background-color 0.5s;
+}
+
+.answerBtn:hover {
+  background-color: rgb(216, 126, 24);
+}
+
+.score-board {
+  position: relative;
+  height: 700px;
+}
+
+.score {
+  position: absolute;
+  width: 100%;
+  font-size: 3em;
+  top: 100px;
+  text-align: center;
+}
+
+.playBtn {
+  width: 158px;
+  top: 250px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 1.4em;
+  padding: 14px 20px;
+  background-color: rgb(46, 182, 46);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  text-decoration: none;
+}
+
+.playBtn:hover {
+  background-color: rgb(19, 146, 19);
+}
