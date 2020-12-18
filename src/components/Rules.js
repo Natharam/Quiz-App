@@ -16,7 +16,7 @@ const Rules = () => {
         3. After Selecting Answer, Only Selected Answer Will Be Left There.
       </p>
       <p className="wrong">
-        4. After Selecting Correct Answer Wait For 3-4 Second To See Animation.
+        4. After Every Correct Answer Wait For 3-4 Second To Move To Next Question.
       </p>
       <p className="wrong">
         5. After Every Question Answer There Will Be Button Below To See Score.
