@@ -10,6 +10,6 @@ ReactJs, JS, HTML, CSS, VS code.
 
 React JS Quize App
 
-In the project directory, you can run:
+To run this project, In the project directory, you can run:
 
-### `yarn start`
+'yarn start'
